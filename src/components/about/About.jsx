@@ -5,7 +5,7 @@ import './about.css'
 
 function About() {
   return (
-    <div className='about'>
+    <div id='about' className='about'>
         <Row>
             <Col lg={6} md={12} sm={12}>
                 <div className='about-img'>

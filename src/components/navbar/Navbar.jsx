@@ -36,10 +36,10 @@ function NavbarChaman() {
         <Navbar.Collapse id="basic-navbar-nav">
           {y > 1024 ? 
           <Nav className="me-auto">
-            <Nav.Link href="#home">Asosiy</Nav.Link>
-            <Nav.Link href="#link">Biz Haqimizda</Nav.Link>
-            <Nav.Link href="#link">Tur-paketlar</Nav.Link>
-            <Nav.Link href="#link"><button className='chaman-btn' style={{marginTop: '0px !important'}} type='tel: +998'>Biz bilan bog'lanish</button></Nav.Link>
+            <Nav.Link href="#">Asosiy</Nav.Link>
+            <Nav.Link href="#about">Biz Haqimizda</Nav.Link>
+            <Nav.Link href="#paket">Tur-paketlar</Nav.Link>
+            <Nav.Link href="#"><button className='chaman-btn nav-btn' type='tel: +998'>Biz bilan bog'lanish</button></Nav.Link>
           </Nav>:
             <Drawer
             placement={placement}
@@ -48,10 +48,10 @@ function NavbarChaman() {
             open={open}
             
           >
-            <Nav.Link href="#home">Asosiy</Nav.Link>
-            <Nav.Link href="#link">Biz Haqimizda</Nav.Link>
-            <Nav.Link href="#link">Tur-paketlar</Nav.Link>
-            <Nav.Link href="#link"><button className='chaman-btn' style={{marginTop: '0px !important'}} type='tel: +998'>Biz bilan bog'lanish</button></Nav.Link>
+            <Nav.Link href="#">Asosiy</Nav.Link>
+            <Nav.Link href="#about">Biz Haqimizda</Nav.Link>
+            <Nav.Link href="#paket">Tur-paketlar</Nav.Link>
+            <Nav.Link href="#"><button className='chaman-btn nav-btn' type='tel: +998'>Biz bilan bog'lanish</button></Nav.Link>
           </Drawer>
           }
         </Navbar.Collapse>

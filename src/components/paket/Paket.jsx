@@ -6,7 +6,7 @@ import img3 from '../../assets/paket/img3.svg'
 
 const Paket = () => {
   return (
-    <div className='paket'>
+    <div id='paket' className='paket'>
         <p className='title' style={{textAlign: 'center'}} >Sayohat paketlarni</p>
         <h1  style={{textAlign: 'center'}}>Ajoyib va betakror manzillar</h1>
         <div className='paket-cards'>

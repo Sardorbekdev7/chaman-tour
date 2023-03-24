@@ -5,8 +5,22 @@ import instagram from '../../assets/footer/instagram.svg'
 import twitter from '../../assets/footer/twitter.svg'
 import youtube from '../../assets/footer/youtube.svg'
 import './footer.css'
+import { useEffect, useState } from 'react'
 
 const Footer = () => {
+    const [width, setWidth] = useState(true)
+
+    const x = window.innerWidth
+
+    useEffect(() => {
+        if(x < 1024){
+            setWidth(false)
+        }else{
+            setWidth(true)
+        }
+    });
+    
+
   return (
     <div className='footer'>
         <Container>
@@ -40,7 +54,7 @@ const Footer = () => {
                         </Col>
                     </Row>
                 </Col>
-                <Col className='footer' lg={6} md={6} sm={12}>
+                <Col className={width?'':'footer'} lg={6} md={6} sm={12}>
                     <Row>
                     <Col lg={6} md={12} sm={12}>
                             <div className='footer-list'>
