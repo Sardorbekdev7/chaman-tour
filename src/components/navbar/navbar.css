@@ -1,0 +1,33 @@
+.navbar {
+    width: 100%;
+}
+.navbar-brand {
+    width: 50%;
+    display: flex;
+    align-items: center !important;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FFFFFF !important;
+}
+
+.navbar-brand img {
+    margin-right: 6px;
+}
+.me-auto {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-link {
+    height: 100%;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF !important;
+}
+
+
+

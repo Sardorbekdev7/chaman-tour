@@ -1,0 +1,40 @@
+.connect {
+    margin-top: 120px;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.153);
+    background-image: url('../../assets/connect/img.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.connect-text {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.connect-text h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.connect-text p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}

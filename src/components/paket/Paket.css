@@ -1,0 +1,47 @@
+.paket{
+    margin-top: 120px;
+}
+
+.paket-cards {
+    margin-top: 64px;
+}
+
+.paket-card {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: flex-end;
+    overflow: hidden;
+    height: 400px;
+}
+
+.paket-card img {
+    position: absolute;
+    z-index: -1;
+}
+
+.paket-card-text {
+    margin: 0px 15px 15px 15px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 10px solid rgba(0, 0, 0, 0.3);
+}
+
+.paket-card-text h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.paket-card-text p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
