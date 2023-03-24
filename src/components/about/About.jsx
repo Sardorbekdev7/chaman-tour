@@ -7,13 +7,13 @@ function About() {
   return (
     <div className='about'>
         <Row>
-            <Col lg={6} md={6} sm={12}>
+            <Col lg={6} md={12} sm={12}>
                 <div className='about-img'>
                     <img src={img1} alt="" />
                     <img src={img2} alt="" />
                 </div>
             </Col>
-            <Col lg={6} md={6} sm={12}>
+            <Col lg={6} md={12} sm={12}>
                 <div className='about-text'>
                     <span className='title'>Biz haqimizda</span>
                     <h1>Go’zal manzillar, sifatli va arzon sayohatlar ChamanTour bilan</h1>

@@ -8,7 +8,7 @@ const Idea = () => {
   return (
     <div className='idea'>
         <Row>
-            <Col lg={6} md={6} sm={12} >
+            <Col id='idea-text' lg={6} md={12} sm={12} >
                 <div className='idea-text'>
                     <span className='title'>Mijozlarimizning biz haqimizda fikrlari</span>
                     <h1>Hammasi a’lo!</h1>
@@ -19,7 +19,7 @@ const Idea = () => {
                     <button className='chaman-btn'>Barcha fikrlarni ko’rish <img src={vector} alt="" /></button>
                 </div>
             </Col>
-            <Col lg={6} md={6} sm={12} >
+            <Col id='idea-img' lg={6} md={12} sm={12} >
                 <div className='idea-img'>
                     <img src={img} alt="" />
                 </div>

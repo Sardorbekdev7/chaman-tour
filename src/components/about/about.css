@@ -44,3 +44,27 @@
     line-height: 150%;
     color: #333333;
 }
+
+@media (max-width: 1024px) {
+    .about {
+        margin-top: 80px;
+    }
+    .about-text h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .about-img {
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .about-img img{
+        position: static;
+        width: 100%;
+    
+    }
+    .about-img img:nth-child(2){
+        position: absolute;
+        bottom: -100px;
+    }
+}

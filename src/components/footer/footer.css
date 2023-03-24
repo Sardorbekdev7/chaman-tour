@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 .footer {
     background: #0A0A0A;
     padding-top: 66px;
+}
+p{
+    margin: 0;
 }
 
 .footer li {
@@ -28,19 +32,60 @@
 
 .footer-list {
     display: flex;
+}
+
+.footer-list a{
+    font-family: 'Josefin Sans';
+    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 30px;
-    opacity: 0.8;
     color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    text-decoration: none;
 }
 
-.footer-list-menu {
+.footer-list a:hover {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.footer-list p {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 18px;
-    color: #FFFFFF;
+    color: #ffffff;
     opacity: 1 !important;
+}
+
+.footer-list-menu {
+    margin-bottom: 25px !important;
+}
+
+.footer-list img {
+    margin-right: 25px !important;
+    opacity: 1 !important;
+}
+
+.footer-end {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.75;
+    border-top: 1px solid #FFFFFF;
+    padding-top: 50px;
+    margin-top: 50px !important;
+}
+
+@media (max-width: 1024px) {
+    .footer-brand {
+        margin-bottom: 20px;
+    }
 }

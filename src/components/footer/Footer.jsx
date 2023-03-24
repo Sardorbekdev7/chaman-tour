@@ -11,7 +11,7 @@ const Footer = () => {
     <div className='footer'>
         <Container>
             <Row>
-                <Col lg={6} md={12} sm={12}>
+                <Col lg={6} md={6} sm={12}>
                     <Row>
                         <Col lg={6} md={12} sm={12}>
                             <div className='footer-brand'>
@@ -22,49 +22,49 @@ const Footer = () => {
                         <Col lg={6} md={12} sm={12}>
                             <div className='footer-list'>
                                 <ul>
-                                    <li className='footer-list-menu'>Ko'proq</li>
-                                    <li>Hujjatlar</li>
-                                    <li>Yangiliklar</li>
-                                    <li>Ofis</li>
-                                    <li>Vakansiya</li>
-                                    <li>Xavfsizlik</li>
-                                    <li>So'rovnoma</li>
+                                    <li><p className='footer-list-menu'>Ko'proq</p></li>
+                                    <li><a href="#">Hujjatlar</a></li>
+                                    <li><a href="#">Yangiliklar</a></li>
+                                    <li><a href="#">Ofis</a></li>
+                                    <li><a href="#">Vakansiya</a></li>
+                                    <li><a href="#">Xavfsizlik</a></li>
+                                    <li><a href="#">So'rovnoma</a></li>
                                 </ul>
                                 <ul>
-                                    <li className='footer-list-menu'>Tur-paketlar</li>
-                                    <li>Arzon</li>
-                                    <li>Mavsumiy</li>
-                                    <li>Mahalliy</li>
+                                    <li><p className='footer-list-menu'>Tur-paketlar</p></li>
+                                    <li><a href="#">Arzon</a></li>
+                                    <li><a href='#'>Mavsumiy</a></li>
+                                    <li><a href='#'>Mahalliy</a></li>
                                 </ul>
                             </div>
                         </Col>
                     </Row>
                 </Col>
-                <Col lg={6} md={12} sm={12}>
+                <Col className='footer' lg={6} md={6} sm={12}>
                     <Row>
                     <Col lg={6} md={12} sm={12}>
                             <div className='footer-list'>
                                 <ul>
-                                    <li className='footer-list-menu'>Aloqa</li>
-                                    <li>Telefon</li>
-                                    <li>Elektron pochta</li>
+                                    <li><p className='footer-list-menu'>Aloqa</p></li>
+                                    <li><a href='#'>Telefon</a></li>
+                                    <li><a href="#">Elektron pochta</a></li>
                                 </ul>
                                 <ul>
-                                    <li><br /></li>
-                                    <li className='footer-list-menu'>+998 71 234 55 78</li>
-                                    <li className='footer-list-menu'>chaman@tour.com</li>
+                                    <li><p className='footer-list-menu' ><br/></p></li>
+                                    <li><p style={{marginBottom: '20px !important'}}>+998 71 234 55 78</p></li>
+                                    <li><p>chaman@tour.com</p></li>
                                 </ul>
                             </div>
                         </Col>
                         <Col lg={6} md={12} sm={12}>
                             <div className='footer-list footer-accounts'>
                                 <ul>
-                                    <li className='footer-list-menu'>Ijtimoiy tarmoqlar</li>
-                                    <li className='footer-list-menu'>
-                                        <a href="#"><img src={facebook} alt="" /></a>
-                                        <a href="#"><img src={instagram} alt="" /></a>
-                                        <a href="#"><img src={twitter} alt="" /></a>
-                                        <a href="#"><img src={youtube} alt="" /></a>
+                                    <li><p className='footer-list-menu'>Ijtimoiy tarmoqlar</p></li>
+                                    <li>
+                                        <a href="#"><img style={{opacity: '1 !important'}} src={facebook} alt="" /></a>
+                                        <a href="#"><img style={{opacity: '1 !important'}} src={instagram} alt="" /></a>
+                                        <a href="#"><img style={{opacity: '1 !important'}} src={twitter} alt="" /></a>
+                                        <a href="#"><img style={{opacity: '1 !important'}} src={youtube} alt="" /></a>
                                     </li>
                                 </ul>
                             </div>
@@ -72,6 +72,9 @@ const Footer = () => {
                     </Row>
                 </Col>
             </Row>
+
+            <p className='footer-end'>© 2023 Chaman Tour | Barcha huquqlar himoyalangan</p>
+            <br />
         </Container>
     </div>
   )
